@@ -1,0 +1,27 @@
+{
+  "name": "contract",
+  "version": "1.0.0",
+  "description": "Lottery Smart Contract using in Solidity",
+  "main": "compile.js",
+  "scripts": {
+    "compile": "node compile.js",
+    "deploy": "node deploy.js",
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "contract",
+    "solidity",
+    "web3",
+    "javascript",
+    "mocha"
+  ],
+  "author": "Daniela Ruiz",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.1.1",
+    "solc": "^0.8.7-fixed",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.5.2"
+  }
+}
